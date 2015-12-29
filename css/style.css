@@ -1,0 +1,140 @@
+
+/*****************
+GENERAL
+******************/
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.2;
+}
+
+.wrapper-main {
+  max-width: 1366px;
+  color: #2f2d2d;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+h2 {
+  padding: 20px 0 20px 0;
+}
+
+.wrapper-header-title {
+  text-transform: uppercase;
+  background: rgb(17, 45, 54);
+  height: 70px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper-header-title h1 {
+  color: white;
+  line-height: 70px;
+  height: 70px;
+  margin: 0;
+  font-size: 1.1em;
+  top: 50%;
+}
+
+.wrapper-header-text {
+    width: 95%;
+}
+
+hr[id="thick"] {
+  border: 2px solid;
+  margin: 35px 0 3px 0;
+}
+
+.hr-thin {
+  border: 1px solid;
+}
+
+.wrapper-content {
+  text-align: left;
+  width: 95%;
+}
+
+/*****************
+HEADER
+******************/
+
+
+/*****************
+MAIN BODY
+******************/
+input[id="zip"] {
+  margin-bottom:35px;
+}
+
+input[id="other-topics"] {
+  margin-bottom:35px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(17, 45, 54,0.1);
+  border: thin rgba(17, 45, 54);
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.01);
+  margin-bottom: 30px;
+  outline: 0;
+}
+
+form[id="contact-information"] label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[id="zip"] {
+  width:50%;
+}
+
+/*****************
+FOOTER
+******************/
+
+button {
+  margin-bottom: 20px;
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+input[placeholder] {
+  font-style: italic;
+  text-align: right;
+}
+
+
+/*** Clearfix ***/
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+/*****************************
+RESPONSIVE SECTION
+******************************/
+
+@media (min-width: 760px) {
+}
